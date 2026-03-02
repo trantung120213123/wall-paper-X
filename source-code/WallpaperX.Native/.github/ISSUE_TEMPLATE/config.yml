@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Support Guide
+    url: ./SUPPORT.md
+    about: Read support instructions before opening an issue.

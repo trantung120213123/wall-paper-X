@@ -18,12 +18,17 @@ Short summary of this release (1-3 lines).
 
 ## Highlights
 
-- Added:
-  - ...
-- Improved:
-  - ...
-- Fixed:
-  - ...
+### Added
+
+- ...
+
+### Improved
+
+- ...
+
+### Fixed
+
+- ...
 
 ## Installer
 
@@ -49,13 +54,13 @@ Short summary of this release (1-3 lines).
 
 ## Checks Before Publish
 
-1. Build succeeds on clean machine.
-2. Installer launches and auto-elevates with UAC.
-3. Install path selection works.
-4. Startup checkbox works.
-5. Editor + Startup executables run correctly after install.
-6. Wallpaper remains active when Editor window closes.
-7. Duplicate video import reuse works.
+- [ ] Build succeeds on clean machine
+- [ ] Installer launches and auto-elevates with UAC
+- [ ] Install path selection works
+- [ ] Startup checkbox works
+- [ ] Editor + Startup executables run correctly after install
+- [ ] Wallpaper remains active when Editor window closes
+- [ ] Duplicate video import reuse works
 
 ## Known Issues
 

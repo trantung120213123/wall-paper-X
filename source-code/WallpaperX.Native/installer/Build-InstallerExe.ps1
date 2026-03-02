@@ -20,7 +20,7 @@ $cmd = Join-Path $projectRoot "build_installer.cmd"
 call "$VsDevCmd" -arch=x64
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -S "$projectRoot" -B "$buildRoot" -G "NMake Makefiles"
 if errorlevel 1 exit /b 1
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build "$buildRoot" --target WallpaperXEditor WallpaperXStartup
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build "$buildRoot" --target WallpaperXEditor WallpaperXStartup WallpaperXUninstaller
 if errorlevel 1 exit /b 1
 "@ | Set-Content -Path $cmd -Encoding Ascii
 

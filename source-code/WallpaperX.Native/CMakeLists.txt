@@ -41,6 +41,15 @@ set_target_properties(WallpaperXStartup PROPERTIES OUTPUT_NAME "WallpaperXStartu
 target_compile_definitions(WallpaperXStartup PRIVATE UNICODE _UNICODE NOMINMAX WIN32_LEAN_AND_MEAN)
 target_link_libraries(WallpaperXStartup PRIVATE shell32 user32)
 
+add_executable(WallpaperXUninstaller WIN32
+    src/uninstaller.cpp
+    ${WALLPAPERX_ICON_RC}
+)
+
+set_target_properties(WallpaperXUninstaller PROPERTIES OUTPUT_NAME "WallpaperXUninstaller")
+target_compile_definitions(WallpaperXUninstaller PRIVATE UNICODE _UNICODE NOMINMAX WIN32_LEAN_AND_MEAN)
+target_link_libraries(WallpaperXUninstaller PRIVATE advapi32 shell32 user32)
+
 add_executable(WallpaperXInstaller WIN32
     src/installer.cpp
     ${WALLPAPERX_ICON_RC}

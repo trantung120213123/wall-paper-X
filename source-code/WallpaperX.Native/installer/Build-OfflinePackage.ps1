@@ -19,7 +19,8 @@ New-Item -ItemType Directory -Force -Path $payloadDir | Out-Null
 
 $required = @(
     "WallpaperXEditor.exe",
-    "WallpaperXStartup.exe"
+    "WallpaperXStartup.exe",
+    "WallpaperXUninstaller.exe"
 )
 
 foreach ($name in $required) {

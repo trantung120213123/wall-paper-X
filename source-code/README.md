@@ -1,27 +1,25 @@
-# WallpaperX Native - Source Package
+# Source Package
 
-This folder is a clean, shareable source package for GitHub releases.
+This directory contains the clean package intended for GitHub.
 
-## What is included
+## Entry Point
 
-- Full C++ source for:
-  - `WallpaperXEditor.exe`
-  - `WallpaperXStartup.exe`
-  - `WallpaperXInstaller.exe`
-- CMake build files
-- Installer build scripts
-- Icons/resources
-
-## What is excluded
-
-- Local build folders (`build-msvc`, `CMakeFiles`, `.obj`, `.pdb`, etc.)
-- Temporary installer staging folders
-- Prebuilt binaries
-
-## Open this package
-
-Use the project folder:
+Use this as repository root:
 
 - `source-code/WallpaperX.Native`
 
-That folder is ready to commit directly to GitHub.
+## Package Policy
+
+| Type | Included |
+|---|---|
+| Source | Yes |
+| Build scripts | Yes |
+| Docs/templates | Yes |
+| Build artifacts (`build-msvc`, `.obj`, `.pdb`, etc.) | No |
+| Prebuilt binaries | No |
+
+## Next Step
+
+```powershell
+cd source-code/WallpaperX.Native
+```

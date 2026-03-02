@@ -37,6 +37,11 @@ compile_commands.json
 # Local scripts
 build_msvc.cmd
 
+# Installer artifacts
+WallpaperX.Native/installer/package/
+WallpaperX.Native/installer/selfextract-stage/
+WallpaperX.Native/installer/WallpaperXNativeInstaller.exe
+
 # OS
 Thumbs.db
 Desktop.ini

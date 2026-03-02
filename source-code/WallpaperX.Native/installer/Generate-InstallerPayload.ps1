@@ -10,7 +10,8 @@ $buildRoot = (Resolve-Path $BuildOutputDir).Path
 
 $mustHave = @(
     "WallpaperXEditor.exe",
-    "WallpaperXStartup.exe"
+    "WallpaperXStartup.exe",
+    "WallpaperXUninstaller.exe"
 )
 
 foreach ($name in $mustHave) {
