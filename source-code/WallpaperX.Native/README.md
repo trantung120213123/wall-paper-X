@@ -173,4 +173,5 @@ Licensed under GNU General Public License v3.0 (GPL-3.0).
 
 - You can use and modify this project.
 - If you distribute a modified version, you must provide the corresponding source code under GPL-3.0.
+- This repository uses copyleft rules to keep community improvements open.
 - See `LICENSE` for full terms.

@@ -93,3 +93,4 @@ This project is GPL-3.0.
 - Duoc dung.
 - Duoc sua.
 - Neu sua va phan phoi, phai public source tuong ung theo GPL-3.0.
+- Xem `LICENSE` (full legal text) va `LICENSE_RULES.md` (tom tat de dev de hieu).
